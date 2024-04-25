@@ -1,4 +1,14 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+
+const repo = "the-game";
+const assetPrefix = `/${repo}/`;
+const basePath = `/${repo}`;
+
+const nextConfig = {
+  images: {
+    unoptimized: true,
+  },
+};
+
 
 export default nextConfig;
